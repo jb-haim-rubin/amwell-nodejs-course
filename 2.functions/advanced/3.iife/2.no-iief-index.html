@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" id="firstName" value="Toto" />
+        <button onclick="createObject()">createObject</button>
+        <script>
+            //Same for myVar in ynet example
+            function getFirstNameRef() {
+                return document.getElementById('firstName')
+            }
+            function createObject() {
+                const firstNameRef = getFirstNameRef()
+                console.log('firstNameRef: ', firstNameRef.value)
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <script>
+            const personObject = {
+                firstName: 'Eli',
+                lastName: 'Rubin',
+                printFullNameOfPersonObject: function () {
+                    console.log(this.firstName + ' ' + this.lastName)
+                },
+            }
+
+            this.firstName = 'Yossi'
+            this.lastName = 'Rotem'
+
+            //This action change the context of the function to the 'window'
+            const myFunctionRef = personObject.printFullNameOfPersonObject
+
+            personObject.printFullNameOfPersonObject()
+            myFunctionRef()
+        </script>
+    </body>
+</html>

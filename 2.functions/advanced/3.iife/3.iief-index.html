@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="text" id="firstName" value="Toto" />
+        <button onclick="createObject()">createObject</button>
+        <!--Clicking on the button will lead to "Uncaught ReferenceError: createObject is not defined" -->
+        <script>
+            ;(function () {
+                function getFirstNameRef() {
+                    return document.getElementById('firstName')
+                }
+                function createObject() {
+                    const firstNameRef = getFirstNameRef()
+                    console.log('firstNameRef: ', firstNameRef.value)
+                }
+            })()
+        </script>
+    </body>
+</html>
