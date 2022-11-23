@@ -1,0 +1,12 @@
+input {
+    width: 150px;
+    height: 20px;
+    display: inline-block;
+    margin: 5px;
+}
+.node-bg-green {
+    background-color: greenyellow;
+}
+.note-border {
+    border: 1px solid;
+}
