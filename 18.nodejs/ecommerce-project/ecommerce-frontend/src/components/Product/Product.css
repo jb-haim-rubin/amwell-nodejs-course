@@ -1,0 +1,10 @@
+.product {
+    height: 70px;
+    width: 200px;
+    border: 1px solid greenyellow;
+    padding: 20px;
+    margin: 10px 0;
+}
+.product.selected {
+    background: aliceblue;
+}

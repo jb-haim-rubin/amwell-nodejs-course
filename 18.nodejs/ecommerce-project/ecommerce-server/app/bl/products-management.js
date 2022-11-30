@@ -14,7 +14,7 @@ export const initProductsBl = (connection) => {
     }
 
     const addProduct = async ({ name, price }) => {
-        if (!name || !price || !name.trim() || !price.trim()) {
+        if (!name || !price || !name.trim() || !price) {
             throw 'Invalid object'
         }
 
