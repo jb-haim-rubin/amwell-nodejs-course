@@ -1,7 +1,7 @@
 {
-  "name": "ecommerce-server",
-  "type": "module",
+  "name": "1.redis-base",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "express": "^4.18.2",
-    "mongoose": "^6.7.3",
-    "node-fetch": "^3.3.0",
-    "uuid": "^9.0.0"
+    "@node-redis/json": "^1.0.2",
+    "redis": "^4.4.0"
   }
 }

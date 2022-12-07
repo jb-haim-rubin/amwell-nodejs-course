@@ -10,7 +10,11 @@ import {
     getProductsApiGet,
 } from './controllers/products.js'
 
-import { checkout, checkPaymentStatus } from './controllers/checkout.js'
+import {
+    checkout,
+    checkPaymentStatus,
+    webhook,
+} from './controllers/checkout.js'
 
 const server = async ({ port, uri }) => {
     const app = express()
@@ -37,6 +41,8 @@ const server = async ({ port, uri }) => {
     app.listen(port, () => {
         console.log(`E-commerce server is up, on port: ${port} `)
     })
+
+    app.post('/webhook', webhook)
 }
 
 server({ port: 4545, uri: 'mongodb://localhost:27017/ecommerce' })

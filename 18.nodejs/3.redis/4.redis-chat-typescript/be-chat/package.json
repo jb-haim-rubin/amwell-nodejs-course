@@ -1,7 +1,7 @@
 {
-  "name": "ecommerce-server",
-  "type": "module",
+  "name": "be-chat",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.1",
+    "@node-redis/json": "^1.0.2",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.7.3",
-    "node-fetch": "^3.3.0",
+    "redis": "^4.4.0",
+    "redis-om": "^0.3.6",
+    "socket.io": "^4.5.3",
     "uuid": "^9.0.0"
   }
 }

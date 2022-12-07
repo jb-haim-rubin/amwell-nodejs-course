@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Freddie Mercury",
+        "age": 45
+    },
+    {
+        "name": "Prince",
+        "age": 58
+    },
+    {
+        "name": "Kurt Cobain",
+        "age": 27
+    },
+    {
+        "name": "Mick Jagger"
+    },
+    {
+        "name": "Jim Morrison",
+        "age": 27
+    },
+    {
+        "name": "Janis Joplin",
+        "age": 27
+    },
+    {
+        "name": "Bob Dylan",
+        "age": 79
+    },
+    {
+        "name": "Rod Stewart",
+        "age": 77
+    },
+    {
+        "name": "Bruce Springsteen",
+        "age": 71
+    },
+    {
+        "name": "Billy Joel",
+        "age": 73
+    },
+    {
+        "name": "Alice Cooper",
+        "age": 74
+    },
+    {
+        "name": "David Bowie",
+        "age": 69
+    },
+    {
+        "name": "Phil Collins",
+        "age": 73
+    },
+    {
+        "name": "Amy Winehouse",
+        "age": 27
+    }
+]

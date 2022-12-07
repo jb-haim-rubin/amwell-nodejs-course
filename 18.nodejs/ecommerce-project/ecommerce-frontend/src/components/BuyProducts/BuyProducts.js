@@ -56,9 +56,10 @@ export const BuyProducts = (props) => {
                     const res = await fetch('/api/checkout', {
                         method: 'POST',
                         headers: {
-                            token: '12334',
+                            'token': '12334',
+                            'Content-type': 'application/json',
                         },
-                        body: JSON.stringify(cart),
+                        body: JSON.stringify({ cart }),
                     })
 
                     const { url } = await res.json()

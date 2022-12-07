@@ -7,8 +7,9 @@ module.exports = function (app) {
         '/api',
         createProxyMiddleware({
             target: `http://${DEV_SERVER}`,
-            logLevel: 'debug',
-            secure: false,
+            // logLevel: 'debug',
+            // secure: false,
+            changeOrigin: true,
             pathRewrite: {
                 '^/api/': '/', // rewrite path
             },

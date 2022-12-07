@@ -1,7 +1,7 @@
 {
-  "name": "ecommerce-server",
-  "type": "module",
+  "name": "payment-gateway",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,10 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.1",
-    "express": "^4.18.2",
-    "mongoose": "^6.7.3",
+    "@fastify/formbody": "^7.4.0",
+    "ejs": "^3.1.8",
+    "fastify": "^4.10.2",
     "node-fetch": "^3.3.0",
+    "redis-om": "^0.3.6",
     "uuid": "^9.0.0"
   }
 }
