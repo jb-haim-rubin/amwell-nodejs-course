@@ -1,0 +1,27 @@
+{
+  "name": "9.javascript-types-debug-typescript",
+  "version": "0.0.0",
+  "description": "Service-description",
+  "keywords": [],
+  "author": "Haim Rubin",
+  "license": "ISC",
+  "main": "index.js",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "winston": "^3.8.2"
+  },
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "rm -rf ../users-management-service.build && tsc --sourceMap -p ./"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.2.4",
+    "@types/mocha": "^10.0.1"
+  }
+}
